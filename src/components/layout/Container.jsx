@@ -11,7 +11,7 @@ function Container(props){
 
 Container.propTypes = {
   children: PropTypes.node,
-  customClass: PropTypes.class,
+  customClass: PropTypes.string,
 };
 
-export default Container;
+export default Container
